@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = C:\Users\seka5\CLionProjects\CS306\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -96,6 +85,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -130,17 +130,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named untitled
+# Target rules for targets named Task2
 
 # Build rule for target.
-untitled: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 untitled
-.PHONY : untitled
+Task2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Task2
+.PHONY : Task2
 
 # fast build rule for target.
-untitled/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/build
-.PHONY : untitled/fast
+Task2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task2.dir\build.make CMakeFiles/Task2.dir/build
+.PHONY : Task2/fast
+
+#=============================================================================
+# Target rules for targets named Task3
+
+# Build rule for target.
+Task3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Task3
+.PHONY : Task3
+
+# fast build rule for target.
+Task3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task3.dir\build.make CMakeFiles/Task3.dir/build
+.PHONY : Task3/fast
 
 Task2.obj: Task2.c.obj
 
@@ -148,7 +161,7 @@ Task2.obj: Task2.c.obj
 
 # target to build an object file
 Task2.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Task2.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task2.dir\build.make CMakeFiles/Task2.dir/Task2.c.obj
 .PHONY : Task2.c.obj
 
 Task2.i: Task2.c.i
@@ -157,7 +170,7 @@ Task2.i: Task2.c.i
 
 # target to preprocess a source file
 Task2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Task2.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task2.dir\build.make CMakeFiles/Task2.dir/Task2.c.i
 .PHONY : Task2.c.i
 
 Task2.s: Task2.c.s
@@ -166,8 +179,35 @@ Task2.s: Task2.c.s
 
 # target to generate assembly for a file
 Task2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Task2.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task2.dir\build.make CMakeFiles/Task2.dir/Task2.c.s
 .PHONY : Task2.c.s
+
+Task3.obj: Task3.c.obj
+
+.PHONY : Task3.obj
+
+# target to build an object file
+Task3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task3.dir\build.make CMakeFiles/Task3.dir/Task3.c.obj
+.PHONY : Task3.c.obj
+
+Task3.i: Task3.c.i
+
+.PHONY : Task3.i
+
+# target to preprocess a source file
+Task3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task3.dir\build.make CMakeFiles/Task3.dir/Task3.c.i
+.PHONY : Task3.c.i
+
+Task3.s: Task3.c.s
+
+.PHONY : Task3.s
+
+# target to generate assembly for a file
+Task3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task3.dir\build.make CMakeFiles/Task3.dir/Task3.c.s
+.PHONY : Task3.c.s
 
 # Help Target
 help:
@@ -177,10 +217,14 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... untitled
+	@echo ... Task2
+	@echo ... Task3
 	@echo ... Task2.obj
 	@echo ... Task2.i
 	@echo ... Task2.s
+	@echo ... Task3.obj
+	@echo ... Task3.i
+	@echo ... Task3.s
 .PHONY : help
 
 
