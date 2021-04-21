@@ -1,15 +1,15 @@
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
+  "C"
   )
 # The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/seka5/CLionProjects/CS306/Task2.cpp" "C:/Users/seka5/CLionProjects/CS306/cmake-build-debug/CMakeFiles/untitled.dir/Task2.cpp.obj"
+set(CMAKE_DEPENDS_CHECK_C
+  "C:/Users/seka5/CLionProjects/CS306/Task2.c" "C:/Users/seka5/CLionProjects/CS306/cmake-build-debug/CMakeFiles/untitled.dir/Task2.c.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
+set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 
 # Targets to which this target links.

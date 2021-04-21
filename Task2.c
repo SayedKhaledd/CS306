@@ -1,17 +1,15 @@
 
-#include <iostream>
-#include <algorithm>
-#include <cmath>
-#include<iomanip>
 #include <time.h>
 #include <stdio.h>
-#include <cstring>
 
+#include <stdlib.h>
 #define row 3
 #define col 3
-
-
-using namespace std;
+#ifdef _WIN32
+#define s "F:\\t.txt"
+#else
+#define s "t.txt"
+#endif
 
 int main() {
     time_t t;
@@ -25,7 +23,7 @@ int main() {
 
 //opening the file
     FILE *open;
-    open = fopen("F:\\t.txt", "w");
+    open = fopen(s, "w");
 //print to file the matrix
     for (int i = 0; i < row; i++) {
         for (int j = 0; j < col; j++) {

@@ -142,32 +142,32 @@ untitled/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
-Task2.obj: Task2.cpp.obj
+Task2.obj: Task2.c.obj
 
 .PHONY : Task2.obj
 
 # target to build an object file
-Task2.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Task2.cpp.obj
-.PHONY : Task2.cpp.obj
+Task2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Task2.c.obj
+.PHONY : Task2.c.obj
 
-Task2.i: Task2.cpp.i
+Task2.i: Task2.c.i
 
 .PHONY : Task2.i
 
 # target to preprocess a source file
-Task2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Task2.cpp.i
-.PHONY : Task2.cpp.i
+Task2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Task2.c.i
+.PHONY : Task2.c.i
 
-Task2.s: Task2.cpp.s
+Task2.s: Task2.c.s
 
 .PHONY : Task2.s
 
 # target to generate assembly for a file
-Task2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Task2.cpp.s
-.PHONY : Task2.cpp.s
+Task2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Task2.c.s
+.PHONY : Task2.c.s
 
 # Help Target
 help:
