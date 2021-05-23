@@ -6,7 +6,7 @@
 #define row 3
 #define col 3
 #ifdef _WIN32
-#define s "F:\\t.txt"
+#define s "F:\\t2.txt"
 #else
 #define s "t.txt"
 #endif

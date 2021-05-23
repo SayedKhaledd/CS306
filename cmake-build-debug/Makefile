@@ -130,6 +130,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Task4_3
+
+# Build rule for target.
+Task4_3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Task4_3
+.PHONY : Task4_3
+
+# fast build rule for target.
+Task4_3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task4_3.dir\build.make CMakeFiles/Task4_3.dir/build
+.PHONY : Task4_3/fast
+
+#=============================================================================
 # Target rules for targets named Task2
 
 # Build rule for target.
@@ -143,6 +156,19 @@ Task2/fast:
 .PHONY : Task2/fast
 
 #=============================================================================
+# Target rules for targets named Task4_2
+
+# Build rule for target.
+Task4_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Task4_2
+.PHONY : Task4_2
+
+# fast build rule for target.
+Task4_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task4_2.dir\build.make CMakeFiles/Task4_2.dir/build
+.PHONY : Task4_2/fast
+
+#=============================================================================
 # Target rules for targets named Task3
 
 # Build rule for target.
@@ -154,6 +180,32 @@ Task3: cmake_check_build_system
 Task3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task3.dir\build.make CMakeFiles/Task3.dir/build
 .PHONY : Task3/fast
+
+#=============================================================================
+# Target rules for targets named Task3_2
+
+# Build rule for target.
+Task3_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Task3_2
+.PHONY : Task3_2
+
+# fast build rule for target.
+Task3_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task3_2.dir\build.make CMakeFiles/Task3_2.dir/build
+.PHONY : Task3_2/fast
+
+#=============================================================================
+# Target rules for targets named Task4
+
+# Build rule for target.
+Task4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Task4
+.PHONY : Task4
+
+# fast build rule for target.
+Task4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task4.dir\build.make CMakeFiles/Task4.dir/build
+.PHONY : Task4/fast
 
 Task2.obj: Task2.c.obj
 
@@ -209,6 +261,117 @@ Task3.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task3.dir\build.make CMakeFiles/Task3.dir/Task3.c.s
 .PHONY : Task3.c.s
 
+Task3_2.obj: Task3_2.c.obj
+
+.PHONY : Task3_2.obj
+
+# target to build an object file
+Task3_2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task2.dir\build.make CMakeFiles/Task2.dir/Task3_2.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task3_2.dir\build.make CMakeFiles/Task3_2.dir/Task3_2.c.obj
+.PHONY : Task3_2.c.obj
+
+Task3_2.i: Task3_2.c.i
+
+.PHONY : Task3_2.i
+
+# target to preprocess a source file
+Task3_2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task2.dir\build.make CMakeFiles/Task2.dir/Task3_2.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task3_2.dir\build.make CMakeFiles/Task3_2.dir/Task3_2.c.i
+.PHONY : Task3_2.c.i
+
+Task3_2.s: Task3_2.c.s
+
+.PHONY : Task3_2.s
+
+# target to generate assembly for a file
+Task3_2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task2.dir\build.make CMakeFiles/Task2.dir/Task3_2.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task3_2.dir\build.make CMakeFiles/Task3_2.dir/Task3_2.c.s
+.PHONY : Task3_2.c.s
+
+Task4.obj: Task4.c.obj
+
+.PHONY : Task4.obj
+
+# target to build an object file
+Task4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task4.dir\build.make CMakeFiles/Task4.dir/Task4.c.obj
+.PHONY : Task4.c.obj
+
+Task4.i: Task4.c.i
+
+.PHONY : Task4.i
+
+# target to preprocess a source file
+Task4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task4.dir\build.make CMakeFiles/Task4.dir/Task4.c.i
+.PHONY : Task4.c.i
+
+Task4.s: Task4.c.s
+
+.PHONY : Task4.s
+
+# target to generate assembly for a file
+Task4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task4.dir\build.make CMakeFiles/Task4.dir/Task4.c.s
+.PHONY : Task4.c.s
+
+Task4_2.obj: Task4_2.c.obj
+
+.PHONY : Task4_2.obj
+
+# target to build an object file
+Task4_2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task4_2.dir\build.make CMakeFiles/Task4_2.dir/Task4_2.c.obj
+.PHONY : Task4_2.c.obj
+
+Task4_2.i: Task4_2.c.i
+
+.PHONY : Task4_2.i
+
+# target to preprocess a source file
+Task4_2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task4_2.dir\build.make CMakeFiles/Task4_2.dir/Task4_2.c.i
+.PHONY : Task4_2.c.i
+
+Task4_2.s: Task4_2.c.s
+
+.PHONY : Task4_2.s
+
+# target to generate assembly for a file
+Task4_2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task4_2.dir\build.make CMakeFiles/Task4_2.dir/Task4_2.c.s
+.PHONY : Task4_2.c.s
+
+Task4_3.obj: Task4_3.c.obj
+
+.PHONY : Task4_3.obj
+
+# target to build an object file
+Task4_3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task4_3.dir\build.make CMakeFiles/Task4_3.dir/Task4_3.c.obj
+.PHONY : Task4_3.c.obj
+
+Task4_3.i: Task4_3.c.i
+
+.PHONY : Task4_3.i
+
+# target to preprocess a source file
+Task4_3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task4_3.dir\build.make CMakeFiles/Task4_3.dir/Task4_3.c.i
+.PHONY : Task4_3.c.i
+
+Task4_3.s: Task4_3.c.s
+
+.PHONY : Task4_3.s
+
+# target to generate assembly for a file
+Task4_3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task4_3.dir\build.make CMakeFiles/Task4_3.dir/Task4_3.c.s
+.PHONY : Task4_3.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -219,12 +382,28 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Task2
 	@echo ... Task3
+	@echo ... Task3_2
+	@echo ... Task4
+	@echo ... Task4_2
+	@echo ... Task4_3
 	@echo ... Task2.obj
 	@echo ... Task2.i
 	@echo ... Task2.s
 	@echo ... Task3.obj
 	@echo ... Task3.i
 	@echo ... Task3.s
+	@echo ... Task3_2.obj
+	@echo ... Task3_2.i
+	@echo ... Task3_2.s
+	@echo ... Task4.obj
+	@echo ... Task4.i
+	@echo ... Task4.s
+	@echo ... Task4_2.obj
+	@echo ... Task4_2.i
+	@echo ... Task4_2.s
+	@echo ... Task4_3.obj
+	@echo ... Task4_3.i
+	@echo ... Task4_3.s
 .PHONY : help
 
 

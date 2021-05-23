@@ -1,4 +1,8 @@
+C:/Users/seka5/CLionProjects/CS306/cmake-build-debug/CMakeFiles/Task4_3.dir
 C:/Users/seka5/CLionProjects/CS306/cmake-build-debug/CMakeFiles/Task2.dir
 C:/Users/seka5/CLionProjects/CS306/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/seka5/CLionProjects/CS306/cmake-build-debug/CMakeFiles/Task4_2.dir
 C:/Users/seka5/CLionProjects/CS306/cmake-build-debug/CMakeFiles/Task3.dir
+C:/Users/seka5/CLionProjects/CS306/cmake-build-debug/CMakeFiles/Task3_2.dir
 C:/Users/seka5/CLionProjects/CS306/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/seka5/CLionProjects/CS306/cmake-build-debug/CMakeFiles/Task4.dir
