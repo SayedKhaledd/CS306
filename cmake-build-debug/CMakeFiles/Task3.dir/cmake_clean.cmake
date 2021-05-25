@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Task3.dir/Task3.c.obj"
+  "CMakeFiles/Task3.dir/Task3.c.o"
   "Task3.exe"
-  "Task3.exe.manifest"
   "Task3.pdb"
   "libTask3.dll.a"
 )
