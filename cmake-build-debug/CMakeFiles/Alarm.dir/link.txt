@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/Alarm.dir/Alarm2.c.o  -o Alarm.exe -Wl,--out-implib,libAlarm.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
