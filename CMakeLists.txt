@@ -10,4 +10,9 @@ add_executable(Task4 Task4.c )
 add_executable(Task4_2 Task4_2.c )
 add_executable(Task4_3 Task4_3.c )
 add_executable(Test Test.c)
+add_executable(Alarm2 Alarm2.c)
+add_executable(Alarm1 Alarm1.c)
+add_executable(Signal Signal.c)
+
+
 

@@ -1,9 +1,12 @@
 /cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles/Alarm1.dir
 /cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles/Task4_3.dir
 /cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles/Task4_2.dir
 /cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles/Task4.dir
 /cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles/Signal.dir
 /cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles/Test.dir
 /cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles/Task3_2.dir
 /cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles/Task3.dir
+/cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles/Alarm2.dir
 /cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles/Task2.dir

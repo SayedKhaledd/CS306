@@ -73,12 +73,15 @@ CMAKE_BINARY_DIR = /cygdrive/g/Github/CS306/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/Alarm1.dir/all
 all: CMakeFiles/Task4_3.dir/all
 all: CMakeFiles/Task4_2.dir/all
 all: CMakeFiles/Task4.dir/all
+all: CMakeFiles/Signal.dir/all
 all: CMakeFiles/Test.dir/all
 all: CMakeFiles/Task3_2.dir/all
 all: CMakeFiles/Task3.dir/all
+all: CMakeFiles/Alarm2.dir/all
 all: CMakeFiles/Task2.dir/all
 
 .PHONY : all
@@ -89,15 +92,45 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/Alarm1.dir/clean
 clean: CMakeFiles/Task4_3.dir/clean
 clean: CMakeFiles/Task4_2.dir/clean
 clean: CMakeFiles/Task4.dir/clean
+clean: CMakeFiles/Signal.dir/clean
 clean: CMakeFiles/Test.dir/clean
 clean: CMakeFiles/Task3_2.dir/clean
 clean: CMakeFiles/Task3.dir/clean
+clean: CMakeFiles/Alarm2.dir/clean
 clean: CMakeFiles/Task2.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Alarm1.dir
+
+# All Build rule for target.
+CMakeFiles/Alarm1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Alarm1.dir/build.make CMakeFiles/Alarm1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Alarm1.dir/build.make CMakeFiles/Alarm1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Alarm1"
+.PHONY : CMakeFiles/Alarm1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Alarm1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Alarm1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Alarm1.dir/rule
+
+# Convenience name for target.
+Alarm1: CMakeFiles/Alarm1.dir/rule
+
+.PHONY : Alarm1
+
+# clean rule for target.
+CMakeFiles/Alarm1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Alarm1.dir/build.make CMakeFiles/Alarm1.dir/clean
+.PHONY : CMakeFiles/Alarm1.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Task4_3.dir
@@ -106,7 +139,7 @@ clean: CMakeFiles/Task2.dir/clean
 CMakeFiles/Task4_3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task4_3.dir/build.make CMakeFiles/Task4_3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task4_3.dir/build.make CMakeFiles/Task4_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target Task4_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target Task4_3"
 .PHONY : CMakeFiles/Task4_3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -133,7 +166,7 @@ CMakeFiles/Task4_3.dir/clean:
 CMakeFiles/Task4_2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task4_2.dir/build.make CMakeFiles/Task4_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task4_2.dir/build.make CMakeFiles/Task4_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target Task4_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target Task4_2"
 .PHONY : CMakeFiles/Task4_2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -160,7 +193,7 @@ CMakeFiles/Task4_2.dir/clean:
 CMakeFiles/Task4.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task4.dir/build.make CMakeFiles/Task4.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task4.dir/build.make CMakeFiles/Task4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target Task4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target Task4"
 .PHONY : CMakeFiles/Task4.dir/all
 
 # Build rule for subdir invocation for target.
@@ -181,13 +214,40 @@ CMakeFiles/Task4.dir/clean:
 .PHONY : CMakeFiles/Task4.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Signal.dir
+
+# All Build rule for target.
+CMakeFiles/Signal.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Signal.dir/build.make CMakeFiles/Signal.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Signal.dir/build.make CMakeFiles/Signal.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target Signal"
+.PHONY : CMakeFiles/Signal.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Signal.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Signal.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Signal.dir/rule
+
+# Convenience name for target.
+Signal: CMakeFiles/Signal.dir/rule
+
+.PHONY : Signal
+
+# clean rule for target.
+CMakeFiles/Signal.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Signal.dir/build.make CMakeFiles/Signal.dir/clean
+.PHONY : CMakeFiles/Signal.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Test.dir
 
 # All Build rule for target.
 CMakeFiles/Test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target Test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target Test"
 .PHONY : CMakeFiles/Test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -214,7 +274,7 @@ CMakeFiles/Test.dir/clean:
 CMakeFiles/Task3_2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task3_2.dir/build.make CMakeFiles/Task3_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task3_2.dir/build.make CMakeFiles/Task3_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target Task3_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target Task3_2"
 .PHONY : CMakeFiles/Task3_2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -241,7 +301,7 @@ CMakeFiles/Task3_2.dir/clean:
 CMakeFiles/Task3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task3.dir/build.make CMakeFiles/Task3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task3.dir/build.make CMakeFiles/Task3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target Task3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target Task3"
 .PHONY : CMakeFiles/Task3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -262,13 +322,40 @@ CMakeFiles/Task3.dir/clean:
 .PHONY : CMakeFiles/Task3.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Alarm2.dir
+
+# All Build rule for target.
+CMakeFiles/Alarm2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Alarm2.dir/build.make CMakeFiles/Alarm2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Alarm2.dir/build.make CMakeFiles/Alarm2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target Alarm2"
+.PHONY : CMakeFiles/Alarm2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Alarm2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Alarm2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Alarm2.dir/rule
+
+# Convenience name for target.
+Alarm2: CMakeFiles/Alarm2.dir/rule
+
+.PHONY : Alarm2
+
+# clean rule for target.
+CMakeFiles/Alarm2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Alarm2.dir/build.make CMakeFiles/Alarm2.dir/clean
+.PHONY : CMakeFiles/Alarm2.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Task2.dir
 
 # All Build rule for target.
 CMakeFiles/Task2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task2.dir/build.make CMakeFiles/Task2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task2.dir/build.make CMakeFiles/Task2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Task2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/g/Github/CS306/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target Task2"
 .PHONY : CMakeFiles/Task2.dir/all
 
 # Build rule for subdir invocation for target.

@@ -27,6 +27,48 @@
 					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/Github/CS306/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Alarm1">
+				<Option output="/cygdrive/g/Github/CS306/cmake-build-debug/Alarm1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/g/Github/CS306/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/Github/CS306/cmake-build-debug/Makefile&quot;  VERBOSE=1 Alarm1"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/Github/CS306/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/Github/CS306/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/Github/CS306/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Alarm1/fast">
+				<Option output="/cygdrive/g/Github/CS306/cmake-build-debug/Alarm1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/g/Github/CS306/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/Github/CS306/cmake-build-debug/Makefile&quot;  VERBOSE=1 Alarm1/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/Github/CS306/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/Github/CS306/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/Github/CS306/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Task4_3">
 				<Option output="/cygdrive/g/Github/CS306/cmake-build-debug/Task4_3.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/g/Github/CS306/cmake-build-debug"/>
@@ -163,6 +205,48 @@
 					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/Github/CS306/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Signal">
+				<Option output="/cygdrive/g/Github/CS306/cmake-build-debug/Signal.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/g/Github/CS306/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/Github/CS306/cmake-build-debug/Makefile&quot;  VERBOSE=1 Signal"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/Github/CS306/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/Github/CS306/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/Github/CS306/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Signal/fast">
+				<Option output="/cygdrive/g/Github/CS306/cmake-build-debug/Signal.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/g/Github/CS306/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/Github/CS306/cmake-build-debug/Makefile&quot;  VERBOSE=1 Signal/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/Github/CS306/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/Github/CS306/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/Github/CS306/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Test">
 				<Option output="/cygdrive/g/Github/CS306/cmake-build-debug/Test.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/g/Github/CS306/cmake-build-debug"/>
@@ -289,6 +373,48 @@
 					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/Github/CS306/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Alarm2">
+				<Option output="/cygdrive/g/Github/CS306/cmake-build-debug/Alarm2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/g/Github/CS306/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/Github/CS306/cmake-build-debug/Makefile&quot;  VERBOSE=1 Alarm2"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/Github/CS306/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/Github/CS306/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/Github/CS306/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Alarm2/fast">
+				<Option output="/cygdrive/g/Github/CS306/cmake-build-debug/Alarm2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/g/Github/CS306/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/Github/CS306/cmake-build-debug/Makefile&quot;  VERBOSE=1 Alarm2/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/Github/CS306/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/Github/CS306/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/g/Github/CS306/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Task2">
 				<Option output="/cygdrive/g/Github/CS306/cmake-build-debug/Task2.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/g/Github/CS306/cmake-build-debug"/>
@@ -332,6 +458,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/g/Github/CS306/Alarm1.c">
+			<Option target="Alarm1"/>
+		</Unit>
+		<Unit filename="/cygdrive/g/Github/CS306/Alarm2.c">
+			<Option target="Alarm2"/>
+		</Unit>
+		<Unit filename="/cygdrive/g/Github/CS306/Signal.c">
+			<Option target="Signal"/>
+		</Unit>
 		<Unit filename="/cygdrive/g/Github/CS306/Task2.c">
 			<Option target="Task2"/>
 		</Unit>

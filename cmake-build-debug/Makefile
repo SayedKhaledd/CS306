@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Alarm1
+
+# Build rule for target.
+Alarm1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Alarm1
+.PHONY : Alarm1
+
+# fast build rule for target.
+Alarm1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Alarm1.dir/build.make CMakeFiles/Alarm1.dir/build
+.PHONY : Alarm1/fast
+
+#=============================================================================
 # Target rules for targets named Task4_3
 
 # Build rule for target.
@@ -168,6 +181,19 @@ Task4: cmake_check_build_system
 Task4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task4.dir/build.make CMakeFiles/Task4.dir/build
 .PHONY : Task4/fast
+
+#=============================================================================
+# Target rules for targets named Signal
+
+# Build rule for target.
+Signal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Signal
+.PHONY : Signal
+
+# fast build rule for target.
+Signal/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Signal.dir/build.make CMakeFiles/Signal.dir/build
+.PHONY : Signal/fast
 
 #=============================================================================
 # Target rules for targets named Test
@@ -209,6 +235,19 @@ Task3/fast:
 .PHONY : Task3/fast
 
 #=============================================================================
+# Target rules for targets named Alarm2
+
+# Build rule for target.
+Alarm2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Alarm2
+.PHONY : Alarm2
+
+# fast build rule for target.
+Alarm2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Alarm2.dir/build.make CMakeFiles/Alarm2.dir/build
+.PHONY : Alarm2/fast
+
+#=============================================================================
 # Target rules for targets named Task2
 
 # Build rule for target.
@@ -220,6 +259,87 @@ Task2: cmake_check_build_system
 Task2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Task2.dir/build.make CMakeFiles/Task2.dir/build
 .PHONY : Task2/fast
+
+Alarm1.o: Alarm1.c.o
+
+.PHONY : Alarm1.o
+
+# target to build an object file
+Alarm1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Alarm1.dir/build.make CMakeFiles/Alarm1.dir/Alarm1.c.o
+.PHONY : Alarm1.c.o
+
+Alarm1.i: Alarm1.c.i
+
+.PHONY : Alarm1.i
+
+# target to preprocess a source file
+Alarm1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Alarm1.dir/build.make CMakeFiles/Alarm1.dir/Alarm1.c.i
+.PHONY : Alarm1.c.i
+
+Alarm1.s: Alarm1.c.s
+
+.PHONY : Alarm1.s
+
+# target to generate assembly for a file
+Alarm1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Alarm1.dir/build.make CMakeFiles/Alarm1.dir/Alarm1.c.s
+.PHONY : Alarm1.c.s
+
+Alarm2.o: Alarm2.c.o
+
+.PHONY : Alarm2.o
+
+# target to build an object file
+Alarm2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Alarm2.dir/build.make CMakeFiles/Alarm2.dir/Alarm2.c.o
+.PHONY : Alarm2.c.o
+
+Alarm2.i: Alarm2.c.i
+
+.PHONY : Alarm2.i
+
+# target to preprocess a source file
+Alarm2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Alarm2.dir/build.make CMakeFiles/Alarm2.dir/Alarm2.c.i
+.PHONY : Alarm2.c.i
+
+Alarm2.s: Alarm2.c.s
+
+.PHONY : Alarm2.s
+
+# target to generate assembly for a file
+Alarm2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Alarm2.dir/build.make CMakeFiles/Alarm2.dir/Alarm2.c.s
+.PHONY : Alarm2.c.s
+
+Signal.o: Signal.c.o
+
+.PHONY : Signal.o
+
+# target to build an object file
+Signal.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Signal.dir/build.make CMakeFiles/Signal.dir/Signal.c.o
+.PHONY : Signal.c.o
+
+Signal.i: Signal.c.i
+
+.PHONY : Signal.i
+
+# target to preprocess a source file
+Signal.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Signal.dir/build.make CMakeFiles/Signal.dir/Signal.c.i
+.PHONY : Signal.c.i
+
+Signal.s: Signal.c.s
+
+.PHONY : Signal.s
+
+# target to generate assembly for a file
+Signal.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Signal.dir/build.make CMakeFiles/Signal.dir/Signal.c.s
+.PHONY : Signal.c.s
 
 Task2.o: Task2.c.o
 
@@ -418,6 +538,9 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... Alarm1"
+	@echo "... Alarm2"
+	@echo "... Signal"
 	@echo "... Task2"
 	@echo "... Task3"
 	@echo "... Task3_2"
@@ -425,6 +548,15 @@ help:
 	@echo "... Task4_2"
 	@echo "... Task4_3"
 	@echo "... Test"
+	@echo "... Alarm1.o"
+	@echo "... Alarm1.i"
+	@echo "... Alarm1.s"
+	@echo "... Alarm2.o"
+	@echo "... Alarm2.i"
+	@echo "... Alarm2.s"
+	@echo "... Signal.o"
+	@echo "... Signal.i"
+	@echo "... Signal.s"
 	@echo "... Task2.o"
 	@echo "... Task2.i"
 	@echo "... Task2.s"
